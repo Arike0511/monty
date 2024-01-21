@@ -1,9 +1,9 @@
 #include "monty.h"
 
 /**
- * f-pall - prints the stack
+ * f_pall - prints the stack
  * @head: stack head
- * @counter: no used
+ * @count: no used
  * Return: no return
 */
 void f_pall(stacked_s **head, unsigned int count)
@@ -18,7 +18,7 @@ void f_pall(stacked_s **head, unsigned int count)
 	}
 	while (j)
 	{
-		printf("%d\n",j->a);
+		printf("%d\n", j->a);
 		j = j->onto;
 	}
 }

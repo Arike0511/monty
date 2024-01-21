@@ -28,6 +28,6 @@ void f_mul(stacked_s **head, unsigned int count)
 	j = *head;
 	xua = j->onto->a * j->a;
 	j->onto->a = xua;
-	*head =j->onto;
+	*head = j->onto;
 	free(j);
 }

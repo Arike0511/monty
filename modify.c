@@ -4,7 +4,7 @@
  * f_mod - computes the rest of the division of the second
  * top element of the stack by the top element of the stack
  * @head: stack head
- * @counter: line_number
+ * @count: line_number
  * Return: no return
 */
 void f_mod(stacked_s **head, unsigned int count)
